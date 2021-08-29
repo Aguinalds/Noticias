@@ -12,7 +12,7 @@ var server = http.createServer(function (req, res) {
     }
     else if (categoria == '/beleza') {
         res.end("<html><body>Noticias de Beleza </body> </html>");
-    } 
+    }
     else {
         res.end("<html><body>Portal de noticias </body> </html>");
     }

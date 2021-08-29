@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Aguinalds/Not-cias/issues"
   },
-  "homepage": "https://github.com/Aguinalds/Not-cias#readme"
+  "homepage": "https://github.com/Aguinalds/Not-cias#readme",
+  "dependencies": {
+    "ejs": "^3.1.6"
+  }
 }
