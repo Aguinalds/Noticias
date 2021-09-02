@@ -2,10 +2,10 @@ var mysql = require('mysql');
 
 var connMySQL = function () {
     return mysql.createConnection({
-        host: 'localhost',
-        user: 'Naldo',
-        password: '87085882g',
-        database: 'potal_noticias'
+        host: process.env.DB_HOST,
+        user: process.env.DB_USER,
+        password: process.env.DB_PASS,
+        database: process.env.DB_BANCO
     });
 }
 module.exports = function () { 

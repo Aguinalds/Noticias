@@ -2,6 +2,7 @@ var express = require('express');
 var consing = require('consign');
 var bodyParser = require('body-parser');
 var expressValidator = require('express-validator');
+require('dotenv').config()
 
 var app = express();
 app.set('view engine', 'ejs');
